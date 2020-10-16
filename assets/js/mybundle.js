@@ -1,13 +1,15 @@
-function functiontest(){
-    console.log("functiontest")
-}
-class ClassTest{
-    constructor(){
-        this.testvar = "testvar"
+export default mybundle = () => {
+    function functiontest(){
+        console.log("functiontest")
     }
+    class ClassTest{
+        constructor(){
+            this.testvar = "testvar"
+        }
 
-    anymethod(){
-        console.log(this.testvar)
-        return true
+        anymethod(){
+            console.log(this.testvar)
+            return true
+        }
     }
 }
