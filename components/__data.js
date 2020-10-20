@@ -1,4 +1,5 @@
-// const config = {
+let data, stats, defaults, commonAttributes
+// config = {
 //     href: 'http://www.e-jlpt.net',
 //     host: 'http://e-jlpt.net',
 //     hostname: 'http://e-jlpt.net',
@@ -8,17 +9,17 @@
 //     port: false,
 //     search: false,
 // }
-const stats = {}//IL FAUT FAIRE UNE REQUETE POUR RECUPERER LES DONNES STATISTIQUE (sqlite3, GAds, GA, GTAG, ..)
+stats = {}//IL FAUT FAIRE UNE REQUETE POUR RECUPERER LES DONNES STATISTIQUE (sqlite3, GAds, GA, GTAG, ..)
 
-const commonAttributes = {
+commonAttributes = {
     className: "a css class name",
     dataSet: "an 'data-' html attribute",
     jcs: "a javascript-cascading-sheet ruleset" || [document.querySelector]
 }
-const defaults = {
+defaults = {
     aggregateRating: {ratingValue: 0, reviewCount: 0}
 }
-const data = {
+export default data = {
     'header': {
         'customSetting': [
             {'navbar': {schema: '',

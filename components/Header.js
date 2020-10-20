@@ -1,4 +1,6 @@
-class Header extends Components {
+import Components from './__Components'
+
+export default class Header extends Components {
     constructor(props) {
         super(props);
         var customSett = [

@@ -1,8 +1,10 @@
+import React from 'react'
+import schemaorg from "./schema.org"
 // import React, { Component } from 'react'
-
-class mySchemaObject extends React.Component {
+export default class mySchemaObject extends React.Component {
      constructor(p){
           super(p)
+alert('mySchemaObject')
           console.log('mySchemaObject')
           console.log(schemaorg);
      }

@@ -1,9 +1,15 @@
 #
 **/node_modules
 
+#POUR QUE GIT NE VERSIONNE PAS LES CONTENUS D'UN DOSSIER, NOMMER CE DOSSIER EN LE TERMINANT PAR: "-_", 
+#SEUL LE FICHIER **/direct-8/urls.txt SERA VERSIONNE
+**/*-_/*
+!**/*-_/urls.txt
+
 #les images,, mais un fichier '_.txt', permet de télécharger les images avec un lien url
 /assets/img/*
 !/assets/img/urls.txt
+
 
 
 #parcel
